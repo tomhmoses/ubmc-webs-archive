@@ -1,0 +1,207 @@
+/****** Overall Links App ******/
+/*******************************/
+a, a:active{
+	outline: none;
+}
+
+/* Surrounds entire list of sortable links, the linksApp content */
+#linkListDIV{
+	margin: 0 auto;
+	padding: 0 1em 0 0;
+	width: 100%;
+}
+
+.appDescription p{
+	margin-top: 0;
+}
+
+.center{
+	text-align: center;
+	padding-top: 15px;
+}
+
+.titleAndUrl{
+}
+
+#fw-help-box-links{
+	margin-top: 10px;
+}
+
+/******* Link Categories ********/
+/********************************/
+
+.linkGroup{
+	margin: 0;
+	padding: 10px 0 10px 0;
+	background-color: transparent;
+}
+
+.linkGroupDiv{
+	width: 100%;
+	position: relative;
+}
+
+#linkGroupTOC { padding:10px 10px 10px 10px;margin:20px 10px 10px 10px;border:1px solid #ccc; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+#linkGroupTOC h3 { margin:0 0 5px 0;padding:0px; font-size:15px }
+
+/* Outer sortable groups are in an UNORDERED List */
+ul#linkGroupsUL{
+	margin: 0;
+	padding: 0 0 0 0px;
+	list-style-type: none
+}
+
+.linkGroupBar{
+	border-style: solid;
+	border-width: 0 0 1px;
+	padding: 4px 8px;
+	/*font-size: 12px;
+	font-weight: normal;*/
+	margin-bottom: 15px;
+}
+
+.linkGroupBar table{
+	vertical-align: middle;
+}
+
+.linkGroupBar th{
+	text-align: left;
+}
+
+.linkGroupBar tr{
+	vertical-align: middle;
+}
+
+.linkGroupBar a{
+	padding: 0 0 0 7px;
+	display: inline;
+}
+
+.linkGroupBar img{
+	display: inline;
+	vertical-align: middle;
+}
+
+.linkGroupBar td{
+	text-align: right;
+	white-space: nowrap;
+	
+}
+
+.categoryControl{
+	cursor: pointer;
+}
+
+.linkGroup h2{
+	display: block;
+	margin: 0;
+	line-height: normal;
+}
+
+.linkGroupNote{
+	font-weight: normal;
+	font-size: 10pt;
+}
+
+p.linkGroupDescription{
+	margin: 15px 0 0 0;
+	padding: 0 0 15px 0;
+	border-bottom: thin dotted;
+	/* PADDING
+	padding: 0 0 0 1em; */
+}
+
+/******* Individual Links *******/
+/********************************/
+
+/* Inner sortable links is an ORDERED List */
+ul.categoryLinks{
+	min-height: 2em;
+	height: auto !important;
+	height: 2em;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+table.linkLayout{
+	width: 98%;
+	margin: 0 auto;
+}
+
+.linkLayout .img img{
+	width: 130px;
+	padding: 3px;
+	border: 1px solid #CCC;
+	background-color: #FFFFFF;
+}
+
+.linkLayout .img{
+	padding: 5px 1em 0 0;
+	text-align: center;
+	width: 110px;
+}
+
+.linkLayout td.content{
+	padding: 0 5px 0 0;
+	vertical-align: top;
+	overflow-x: hidden; 
+  max-width:400px;
+}
+
+.linkLayout .content a{
+	font-weight: bold;
+	padding: 0;
+	text-decoration: none;
+}
+
+.linkLayout .content a:hover{
+	text-decoration: underline;
+}
+
+.linkLayout .content p.linkDescription{
+/*margin: 5px 0 0 1em;*/
+	padding: 10px 0;
+	margin: 0;
+}
+
+.linkLayout .content .linkURL{
+	display: block;
+	font-size: 0.8em;
+	color: #909090;
+}
+
+.linkLayout .content .linkURLFull{
+	font-size: 0.8em;
+	color: #909090;
+}
+
+
+.linkLayout .content .linkTimestamp{
+	display: inline;
+	font-size: 0.8em;
+	color: #909090;
+}
+
+.linkLayout tr{
+	vertical-align: middle;
+}
+
+li.link {
+	border-bottom: thin dotted;
+	padding: 10px 0;
+	overflow-x: hidden;
+}
+
+li.link br{
+	line-height: 3px;
+}
+
+.clear {
+	clear: both;
+	line-height: 0;
+}
+
+.clear_head {
+  clear:both
+}

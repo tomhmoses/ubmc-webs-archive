@@ -1,0 +1,41 @@
+.photoFrame {
+	line-height:1px;
+	font-size:0px;
+}
+
+.frameTL {
+	background:transparent url(../../../images.freewebs.com/Apps/Photos/Images/Frames/Basic/Small/top-left.png) bottom right no-repeat;
+	width: 7px;
+	height: 6px;
+}
+.frameT {
+	background:transparent url(../../../images.freewebs.com/Apps/Photos/Images/Frames/Basic/Small/top.png) bottom left repeat-x;
+	height: 6px;
+}
+.frameTR {
+	background:transparent url(../../../images.freewebs.com/Apps/Photos/Images/Frames/Basic/Small/top-right.png) bottom left no-repeat;
+	width: 7px;
+	height: 6px;
+}
+.frameL {
+	background:transparent url(../../../images.freewebs.com/Apps/Photos/Images/Frames/Basic/Small/left.png) top right repeat-y;
+	width: 7px;
+}
+.frameR {
+	background:transparent url(../../../images.freewebs.com/Apps/Photos/Images/Frames/Basic/Small/right.png) top left repeat-y;
+	width: 7px;
+}
+.frameBL {
+	background:transparent url(../../../images.freewebs.com/Apps/Photos/Images/Frames/Basic/Small/bottom-left.png) top right no-repeat;
+	width: 7px;
+	height: 8px;
+}
+.frameB {
+	background:transparent url(../../../images.freewebs.com/Apps/Photos/Images/Frames/Basic/Small/bottom.png) top left repeat-x;
+	height: 8px;
+}
+.frameBR {
+	background:transparent url(../../../images.freewebs.com/Apps/Photos/Images/Frames/Basic/Small/bottom-right.png) top left no-repeat;
+	width: 7px;
+	height: 8px;
+}

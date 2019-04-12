@@ -1,0 +1,63 @@
+.album {
+	font-size: 0.9em;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.albumTitle {
+	font-weight: bold;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	display: block;
+	font-size: 1.15em;
+}
+#fw-settings,
+#fw-settings span {
+	margin:0;
+	padding:5px 0 0 0;
+}
+#fw-settings span {
+	background:transparent url('../../Images/settings.png') no-repeat scroll 0 70%;
+	border:none;
+	display:block;
+	text-decoration:none;
+	width:67px;
+	height:21px;
+}
+.fw-album_meta {
+	text-align:center;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.fw-gallery_description p {
+	margin:0;
+}
+
+
+a.frame {
+	display: block;
+	background: transparent url("Images/Frames/Basic/album-frame.png") no-repeat scroll center top;
+	cursor: pointer;
+	padding: 1px 0px;
+	width: 230px;
+	height: 183px;
+	overflow: hidden;
+	margin: auto;
+}
+* html a.frame {
+	background-image: none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='Images/Frames/Basic/album-frame.png', sizingMethod='crop');
+}
+
+a.frame span.fw-photo {
+	display: block;
+	background-position: center 20%;
+	background-repeat: no-repeat;
+	text-indent: -5000px;
+	width: 206px;
+	height: 154px;
+	margin: 13px 12px;
+}

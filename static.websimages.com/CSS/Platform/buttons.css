@@ -1,0 +1,104 @@
+/****************************************************************
+    ----------------------------------------------
+    ****   CSS for Apps Buttons - @Dominick   ****
+    ----------------------------------------------
+
+	This file is imported by fwml.css
+******************************************************************/
+.fw-button, .fw-button:link, .fw-button:active, .fw-button:visited {
+	white-space: nowrap;
+	color: #fff;
+	font-weight: bold !important;
+	display: -moz-inline-box; /* FF2 version of inline-block... */
+	display: inline-block;
+	width: auto;
+	font-family: helvetica, arial;
+	margin: 0 0 0 2px;
+	text-decoration: none;
+	background-color: #000;
+	border: 2px solid #424242;
+	cursor: pointer;
+
+	-ms-filter: alpha(opacity = 55);
+	filter: alpha(opacity = 55);
+	zoom: 1;
+	opacity: 0.55;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+.fw-button:hover {
+	color: #fff;
+	-ms-filter: alpha(opacity = 65);
+	filter: alpha(opacity = 65);
+	opacity: .65;
+}
+.fw-button span { display: block; width: auto; }
+
+.fw-input-big, input.fw-button-big {
+	font-size: 13px;
+	padding: 3px 9px 3px;
+}
+.fw-input-small {
+	font-size: 11px;
+	padding: 2px 9px;
+	*padding: 0;
+}
+.fw-button-big, .fw-button-big:link, .fw-button-big:active, .fw-button-big:visited {
+	font-size: 13px;
+	line-height: 14px;
+	padding: 4px 11px 4px;
+}
+.fw-button-small, .fw-button-small:link, .fw-button-small:active, .fw-button-small:visited {
+	font-size: 11px;
+	line-height: 16px;
+	padding: 1px 9px 0 9px;
+}
+
+.fw-button-hideValue-normal,
+.fw-button-hideValue-normal:link,
+.fw-button-hideValue-normal:active,
+.fw-button-hideValue-normal:visited {
+	padding: 4px 3px 4px 5px;
+}
+.fw-button-hideValue-small,
+.fw-button-hideValue-small:link,
+.fw-button-hideValue-small:active,
+.fw-button-hideValue-small:visited {
+	padding: 1px 1px 0 4px;
+}
+.fw-button-hideValue-normal span, .fw-button-hideValue-small span {
+	text-indent: -9999px;
+	text-align: left;
+	width: 0px;
+}
+
+/* relative path points to https://images.webs.com/Images/Apps/... */
+.fw-button-add span { padding: 0  0 0 14px; background: transparent url(../../Images/Apps/fwbutton_sprite.png) no-repeat 0 1px; }
+.fw-button-edit span { padding: 0  0 0 17px; background: transparent url(../../Images/Apps/fwbutton_sprite.png) no-repeat 0 -20px; }
+.fw-button-delete span { padding: 0  0 0 16px; background: transparent url(../../Images/Apps/fwbutton_sprite.png) no-repeat 0 -39px; }
+
+.fw-button-move span { padding: 0  0 0 16px; background: transparent url(../../Images/Apps/fwbutton_sprite.png) no-repeat 0 -61px; }
+.fw-button-video span { padding: 0  0 0 15px; background: transparent url(../../Images/Apps/fwbutton_sprite.png) no-repeat 0 -82px; }
+.fw-button-photo span { padding: 0  0 0 15px; background: transparent url(../../Images/Apps/fwbutton_sprite.png) no-repeat 0 -98px; }
+.fw-button-mail span { padding: 0  0 0 15px; background: transparent url(../../Images/Apps/fwbutton_sprite.png) no-repeat 0 -119px; }
+.fw-button-settings span { padding: 0  0 0 17px; background: transparent url(../../Images/Apps/fwbutton_sprite.png) no-repeat 0 -139px; }
+.fw-button-user span { padding: 0  0 0 15px; background: transparent url(../../Images/Apps/fwbutton_sprite.png) no-repeat 0 -160px; }
+.fw-button-dialog span { padding: 0  0 0 16px; background: transparent url(../../Images/Apps/fwbutton_sprite.png) no-repeat 0 -180px; }
+.fw-button-calendar span { padding: 0  0 0 16px; background: transparent url(../../Images/Apps/fwbutton_sprite.png) no-repeat 0 -199px; }
+.fw-button-star span { padding: 0  0 0 15px; background: transparent url(../../Images/Apps/fwbutton_sprite.png) no-repeat 0 -219px; }
+.fw-button-cart span { padding: 0  0 0 18px; background: transparent url(../../Images/Apps/fwbutton_sprite.png) no-repeat 0 -238px; }
+
+*html .fw-button-add span,
+*html .fw-button-edit span,
+*html .fw-button-delete span,
+*html .fw-button-move span,
+*html .fw-button-video span,
+*html .fw-button-photo span,
+*html .fw-button-mail span,
+*html .fw-button-settings span,
+*html .fw-button-user span,
+*html .fw-button-dialog span,
+*html .fw-button-calendar span,
+*html .fw-button-cart span,
+*html .fw-button-star span { background-image: url(../../Images/Apps/fwbutton_sprite.gif); }
